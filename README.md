@@ -13,7 +13,9 @@ y = 1, if x1\*w1 + x2\*w2 + b > 0; y = -1, if x1\*w1 + x2\*w2 + b <= 0; here w1,
 w1(n+1) = w1(n) + eta\*e(n)\*x1(n); here 0 < eta < 1; e(n) = d(n) - y(n); - an error, estimated by comparing the desired output d(n) and the output, currently (for current example) received from the Perceptron.
 w2(n+1) = w2(n) + eta\*e(n)\*x2(n);
 b(n+1) = b(n) + eta\*e(n);
-# Additional task (2 additional points)
+
+# Additional task:
+
 Solve this classification task using Naive Bayes Classifier.
 Some examples and tutorials for additional task:
 - http://www.statsoft.com/textbook/naive-bayes-classifier
